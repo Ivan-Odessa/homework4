@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap');
+
+@font-face {
+	font-family: 'VlaShu';
+	src: url('../fonts/VlaShu.woff2') format('woff2'), url('../fonts/VlaShu.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'HangingLetters';
+	src: url('../fonts/HangingLetters.woff2') format('woff2'), url('../fonts/HangingLetters.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* Стили обнуления */
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* --------------- */
+
+.menu__list {
+	text-align: right;
+	letter-spacing: 10px;
+}
+
+.menu__link {
+	color: crimson;
+	text-shadow: 15px 15px 15px rgb(218, 21, 21), -5px 5px 5px black;
+}
+
+.box-img {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Ruslan Display';
+	font-size: 45px;
+	text-align: center;
+	text-shadow: 5px 20px 20px red, 5px 20px 20px red;
+}
+
+.main__text {
+	color: lightseagreen;
+	text-indent: 10px;
+	font-family: 'Russo One', sans-serif;
+}
+
+.choice__title {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: line-through;
+	text-shadow: 10px 10px 10px #643234;
+}
+
+.choice__subtitle {
+	text-align: center;
+	color: cyan;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'HangingLetters';
+	text-decoration: underline;
+}
+
+.box-img__right {
+	text-align: right;
+}
+
+.choice__item+li {
+	color: darkorange;
+	font-size: 25px;
+	font-style: italic;
+	word-spacing: 20px;
+}
+
+.summary__title {
+	font-family: 'VlaShu';
+	color: magenta;
+	font-size: 25px;
+	text-decoration: overline;
+	text-align: right;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.summary__list {
+	line-height: 2;
+	text-align: right;
+	color: green;
+	font-family: 'Amatic SC', cursive;
+}
+
+.summary__item~li {
+	color: indigo;
+}
+
+.footer__link {
+	color: rgb(94, 92, 205);
+	font-family: 'Merriweather', serif;
+}
